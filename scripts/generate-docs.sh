@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 set -exuo pipefail
 
-git clone https://github.com/PlatformOfTrust/api-docs-product.git
+git clone https://github.com/catalin-sbp/api-docs-product.git
 
 cd api-docs-product
 npm install
