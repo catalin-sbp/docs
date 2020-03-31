@@ -3,7 +3,7 @@ set -exuo pipefail
 
 git clone https://github.com/PlatformOfTrust/api-docs-product.git
 
-cd CodeGen-Code
+cd api-docs-product
 npm install
 
 cp -r doc-generation/lib ./docs/raml2markdown/oas-raml-converter/
